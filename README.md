@@ -10,6 +10,8 @@ Get fixed price for bundle with dyn. prices only if:
 * with default qty
 * and qty NOT editable
 
+Why? Because Magento shows up a 0,- price for all Bundle-Products with dynamic prices. This generates a fixed price which can be used for final configured bundles.
+
 Requirements
 ------------
 

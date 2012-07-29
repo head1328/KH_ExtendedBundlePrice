@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    KH
+ * @package     KH_ExtendedBundlePrice
+ */
+-->
+<config>
+	<modules>
+		<KH_ExtendedBundlePrice>
+			<version>0.1.0</version>
+		</KH_ExtendedBundlePrice>
+	</modules>
+
+	<global>
+        <helpers>
+            <extbundleprice>
+                <class>KH_ExtendedBundlePrice_Helper</class>
+            </extbundleprice>
+        </helpers>
+
+		<models>
+			<extbundleprice>
+				<class>KH_ExtendedBundlePrice_Model</class>
+			</extbundleprice>
+
+			<bundle>
+				<rewrite>
+					<product_price>KH_ExtendedBundlePrice_Model_Product_Price</product_price>
+				</rewrite>
+			</bundle>
+        </models>
+    </global>
+</config>

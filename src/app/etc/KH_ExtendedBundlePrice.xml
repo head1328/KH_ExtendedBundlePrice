@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    KH
+ * @package     KH_ExtendedBundlePrice
+ */
+-->
+<config>
+    <modules>
+        <KH_ExtendedBundlePrice>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Bundle/>
+            </depends>
+        </KH_ExtendedBundlePrice>
+    </modules>
+</config>

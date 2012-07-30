@@ -20,4 +20,4 @@ Tested with magento 1.7
 Installation
 ------------
 
-Just copy all files under /app or use modman
+Just copy all files under /src to /app or use modman

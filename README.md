@@ -1,6 +1,8 @@
 KH_ExtendedBundlePrice
 ======================
 
+> Deprecated. This repository is no longer maintained and will be archived.
+
 Description
 -----------
 
